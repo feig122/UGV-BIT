@@ -1,0 +1,6 @@
+<launch>
+<node name="MyUDP" pkg="ugv_bit" type="MyUDP"  output="screen"/>
+<node name="pathtrack" pkg="ugv_bit" type="pathtrack"  output="screen"/>
+<node name="key_op" pkg="ugv_bit" type="key_op"  output="screen"/>
+<node name="rviz" pkg="rviz" type="rviz"  args="-d $(find ugv_bit)/abc.rviz"/>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+<node name="test1" pkg="test" type="test1"  output="screen"/>
+<node name="test2" pkg="test" type="test2"  output="screen"/>
+<node name="rviz" pkg="rviz" type="rviz"  args="-d $(find test)/rviz_cfg/abc.rviz"/>
+`</launch>

@@ -1,0 +1,10 @@
+int32 mode
+int32 speed
+int32 angle
+bool[4] enabled
+int16[4] WNvalue
+int16[4] DIvalue
+int16[4] DOvalue
+float32[4] bv
+float32[4] iq
+float32[4] spd
